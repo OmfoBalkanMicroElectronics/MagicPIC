@@ -136,4 +136,8 @@ Ne yazık ki bu durum mikrodenetleyicinin silikon seviyesinde oluşmuş bir arı
 
 Bu durum benim için biraz üzücüydü. Elektronik cihazlara sadece bir eşya olarak değil, içerisinde yıllarca çalışan bir tasarım ve emek bulunan sistemler olarak bakıyorum. Bu cihaz ailemizde 16 yıldan uzun süredir kullanılıyordu ve tüm donanımı; ekranı, tuner bölümü ve diğer sistemleri hâlâ çalışır durumdayken, yalnızca tek bir mikrodenetleyici pini nedeniyle işlevlerinin büyük kısmını kaybetmesi oldukça ilginç bir deneyimdi.
 
-Bu deneyimden sonra eski ve klasik mikrodenetleyicilere, özellikle **PIC ailesine** olan ilgim daha da arttı. MagicPIC projesi de bu merakın ve öğrenme sürecinin bir sonucu olarak ortaya çıktı.
+Bu deneyim, benim için sadece bir cihaz tamiri değildi. MagicFINDER olmasaydı belki de bugün PIC mikrodenetleyicileriyle bu kadar ilgilenmeyecektim.
+
+Bir cihazın yıllarca çalıştıktan sonra, çok küçük ve doğrudan değiştirilemeyen bir mikrodenetleyici arızası nedeniyle kullanılamaz hale gelmesi benim için önemli bir öğrenme deneyimi oldu. Sorunun çevre birimlerinde değil, doğrudan işlemcinin içinde olduğunu anlamak ve bunu değiştirememek, elektronik sistemlerin ne kadar hassas ve karmaşık olabileceğini gösterdi.
+
+Bu noktadan sonra klasik mikrodenetleyicilere, özellikle PIC ailesine olan ilgim arttı. MagicPIC, biraz da bu deneyimin sonucunda; mikrodenetleyicileri daha iyi anlamak, kendi donanımlarımı geliştirmek ve bu platformları daha yakından tanımak amacıyla ortaya çıktı.
