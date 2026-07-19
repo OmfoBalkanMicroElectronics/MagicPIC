@@ -1,5 +1,6 @@
 ## MagicPIC
 *"Brought to you by OBM"*
+
 *"Inspired by a 16-year-old MagicFINDER Plus 3 and the curiosity to understand what was inside."*
 
 MagicPIC, klasik Microchip PIC mikrodenetleyicilerini daha yakından tanımak, belgelemek ve geliştirmek amacıyla oluşturulmuş açık kaynaklı bir gömülü sistem projesidir.
