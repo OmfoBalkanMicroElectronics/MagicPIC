@@ -8,6 +8,7 @@
 
 
 *"Brought to you by OBM"*
+
 MagicPIC, klasik Microchip PIC mikrodenetleyicilerini daha yakından tanımak, belgelemek ve geliştirmek amacıyla oluşturulmuş açık kaynaklı bir gömülü sistem projesidir.
 
 
