@@ -1,7 +1,7 @@
 ## MagicPIC
 
 <p align="center">
-  <img src="images/banner.png" width="900">
+  <img src="images/magicpic.png" width="900">
 </p>
 
 *"Brought to you by OBM"*
