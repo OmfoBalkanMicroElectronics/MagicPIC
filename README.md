@@ -59,6 +59,7 @@ MagicPIC aktif geliştirme aşamasındadır.
 
 
 İlk donanım prototiplerinin hazırlanmasının ardından örnek uygulamalar ve sürücü kütüphaneleri düzenli olarak depoya eklenecektir. Projenin temel hedeflerinden biri, PIC16F886 için Türkçe kaynak eksikliğini gidermek ve geliştiricilerin hızlı bir şekilde çalışmaya başlayabileceği kapsamlı bir referans oluşturmaktır.
+Proje(ler),MPLAB X IDE ve XC8 Derleyicisi ile çalışıyor,ilerde başka IDE'ler içinde desteklenebilir.
 
 
 ## Yol Haritası
