@@ -130,7 +130,7 @@ Babamın uzun yıllardır kullandığı **MagicFINDER Plus 3** uydu ölçüm cih
 
 İlk incelemelerde sorunun klavye tarafında, özellikle zebra konektör veya keypad bağlantılarında olduğunu düşündüm. Çeşitli jumper ve kablo bağlantıları ile denemeler yapmama rağmen cihazın tuşları düzgün çalışmadı. Sadece bazı tuşlar, özellikle **DOWN** ve güç tuşu çalışıyordu.
 
-10 Temmuz tarihinde cihazı tekrar incelemeye karar verdim. Bu sefer doğrudan cihazın ana işlemcisi olan **PIC18F4520** mikrodenetleyicisine odaklandım.
+10 Temmuz tarihinde cihazı tekrar incelemeye karar verdim. Bu sefer doğrudan cihazın ana işlemcisi olan **PIC18F4525** mikrodenetleyicisine odaklandım.
 
 Keypad matris bağlantılarını ve işlemci pinlerini kontrol ettiğimde sorunun işlemcinin **RE1 pini** üzerinde olduğunu tespit ettim. Yapılan ölçümlerde:
 
