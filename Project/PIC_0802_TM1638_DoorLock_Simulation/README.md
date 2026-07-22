@@ -20,4 +20,4 @@ Bu çalışma, MagicPIC projesi kapsamında PIC16F886 mikrodenetleyicisinin 20 M
 | **TM1638 Modülü** | DIO | RA4 | Giriş / Çıkış | Seri Veri Hattı (Açık Kollektör) |
 | **Aktüatör** | RELAY | RC0 | Çıkış | Kilit Simülasyon Çıkışı |
 
-**Not**: Bu proje için gereken kütüphaneler,"Examples" klasöründe bulunur. Kod hakkında ise kodu şuan tenizliyorum,temiz hale gelince yükleyeceğim(en kısa zamanda)
+**Not**: Bu proje için gereken kütüphaneler,"Examples" klasöründe bulunur. Projenin kodunu ise şuan temizliyorum,temiz hale gelince yükleyeceğim(en kısa zamanda)
