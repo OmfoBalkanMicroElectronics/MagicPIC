@@ -49,7 +49,7 @@
 #pragma config WDTE = OFF            // Disable Watchdog Timer
 #pragma config PWRTE = OFF           // Disable Power-up Timer
 #pragma config BOREN = OFF           // Disable Brown-out Reset
-#pragma config LVP = OFF             // Disable Low-Voltage Programming
+#pragma config LVP = ON //Enabled Low-Voltage-Programming,RB3 pin is used for it(PGM)
 
 // Tell the compiler our clock speed so __delay_ms() works correctly
 #define _XTAL_FREQ 4000000           // We will configure the chip for 4MHz
