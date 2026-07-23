@@ -7,9 +7,16 @@ Bu çalışma, **MagicPIC** projesi kapsamında PIC16F886 mikrodenetleyicisinin 
 * **TAD Saat Frekansı Frekansı Optimizasyonu:** 20 MHz harici osilatör frekansı altında, örnekleme kondansatörünün kararlı dolumu (Acquisition Time) için donanımsal dönüşüm saati **FOSC/32** (`ADCS = 2`) ve sağa hizalama (`ADFM = 1`) mimarisi kurulmuştur.
 * **Hafif Voltaj Dönüşüm Algoritması:** Belleği şişirmemek adına analog voltaj `float` yerine `unsigned long` tipiyle doğrudan milivolt (0-5000 mV) cinsinden hesaplanır. Ardından matematiksel basamak bölme tekniğiyle tam volt ve ondalık kısımlarına ayıklanarak ekrana basılır.
 * **Dinamik Grafik İlerleme Çubuğu (Progress Bar):** Ham ADC verisi (0-1023), OLED ekranın piksel sınırlarına (120 piksel genişlik) matematiksel olarak oranlanır. Her döngüde I2C üzerinden dikey piksel maskeleri (`0xFF` ve `0x01`) gönderilerek, potansiyometrenin konumuna göre anlık uzayıp kısalan kararlı bir grafik bar simülasyonu çalıştırılır.
-* 
+
+
+
 ![MagicPIC ADC ve OLED Çalışma Canlı Görseli](images/adc_working.jpeg)
+
+
 ![Ekran](images/adc_working1.jpeg)
+
+
+
 ## Donanım Pin Konfigürasyonu
 
 | Çevre Birimi | Sinyal Adı | PIC16F886 Pini | Veri Yönü | Açıklama |
