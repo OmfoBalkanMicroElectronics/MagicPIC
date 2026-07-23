@@ -15,7 +15,7 @@ void main(void) {
     ANSEL = 0x00; 
     ANSELH = 0x00;
     
-    // I2C Pin Yönlendirmeleri
+    // I2C Pin YÃ¶nlendirmeleri
     TRISC3 = 1; 
     TRISC4 = 1; 
 
@@ -47,43 +47,43 @@ void main(void) {
         OLED_Write_Int(OLED_ADDR, adc_ham);
         OLED_Write_String(OLED_ADDR, "    "); // Eski hanelerden kalan art?klar? temizle
         
-        // Voltaj hesab?: Float kullan?p haf?zay? ?i?irmemek için milivolt cinsinden (tam say?) hesapl?yoruz
-        // 5V referans için: (adc_ham * 5000) / 1023
+        // Voltaj hesab?: Float kullan?p haf?zay? ?i?irmemek iÃ§in milivolt cinsinden (tam say?) hesapl?yoruz
+        // 5V referans iÃ§in: (adc_ham * 5000) / 1023
         voltaj_milivolt = ((unsigned long)adc_ham * 5000) / 1023;
         
-        volt_tam = (int)(voltaj_milivolt / 1000);       // Örn: 4850 / 1000 = 4 (Volt k?sm?)
-        volt_ondalik = (int)(voltaj_milivolt % 1000);   // Örn: 4850 % 1000 = 850 (Kusurat k?sm?)
+        volt_tam = (int)(voltaj_milivolt / 1000);       // Ã–rn: 4850 / 1000 = 4 (Volt k?sm?)
+        volt_ondalik = (int)(voltaj_milivolt % 1000);   // Ã–rn: 4850 % 1000 = 850 (Kusurat k?sm?)
 
-        // Volt de?erini ekrana bas (Örn: 4)
+        // Volt de?erini ekrana bas (Ã–rn: 4)
         OLED_Set_Cursor(OLED_ADDR, 4, 54);
         OLED_Write_Int(OLED_ADDR, volt_tam);
         OLED_Write_String(OLED_ADDR, "."); // Nokta koy
         
-        // E?er ondal?k k?s?m 100'den küçükse (Örn: .050 veya .005 gibi durumlar için s?f?r ekleme yönetimi)
+        // E?er ondal?k k?s?m 100'den kÃ¼Ã§Ã¼kse (Ã–rn: .050 veya .005 gibi durumlar iÃ§in s?f?r ekleme yÃ¶netimi)
         if(volt_ondalik < 100) OLED_Write_String(OLED_ADDR, "0");
         if(volt_ondalik < 10)  OLED_Write_String(OLED_ADDR, "0");
         
         OLED_Write_Int(OLED_ADDR, volt_ondalik);
         OLED_Write_String(OLED_ADDR, "V   ");
 
-        // Potu çevirirken görsel seviye bar? (Progress Bar) olu?turma:
+        // Potu Ã§evirirken gÃ¶rsel seviye bar? (Progress Bar) olu?turma:
         // Ekran geni?li?i 128 piksel. 1023 de?erini 120 piksele oranlayal?m: (adc_ham * 120) / 1023
         char bar_genislik = (char)(((unsigned long)adc_ham * 120) / 1023);
         
-        // En alt sat?ra (Sayfa 7) dinamik çizgi çiziyoruz
-        // Önce eski çizgiyi silmek için ekran?n o k?sm?n? temizleyebiliriz ancak 
-        // daha h?zl? olmas? için do?rudan her döngüde çizgiyi s?f?rdan boyuyoruz
+        // En alt sat?ra (Sayfa 7) dinamik Ã§izgi Ã§iziyoruz
+        // Ã–nce eski Ã§izgiyi silmek iÃ§in ekran?n o k?sm?n? temizleyebiliriz ancak 
+        // daha h?zl? olmas? iÃ§in do?rudan her dÃ¶ngÃ¼de Ã§izgiyi s?f?rdan boyuyoruz
         OLED_Set_Cursor(OLED_ADDR, 7, 4);
         I2C_Start(); I2C_Write((char)(OLED_ADDR << 1)); I2C_Write(0x40);
         for(char c = 0; c < 120; c++) {
             if(c < bar_genislik) {
-                I2C_Write(0xFF); // Pot de?erine göre dolu bar sütunu
+                I2C_Write(0xFF); // Pot de?erine gÃ¶re dolu bar sÃ¼tunu
             } else {
-                I2C_Write(0x01); // Bar?n bitti?i yerde ince zemin çizgisi
+                I2C_Write(0x01); // Bar?n bitti?i yerde ince zemin Ã§izgisi
             }
         }
         I2C_Stop();
 
-        __delay_ms(100); // 100ms aral?klarla ekran? güncelle (Ak?c? ve kararl? tarama)
+        __delay_ms(100); // 100ms aral?klarla ekran? gÃ¼ncelle (Ak?c? ve kararl? tarama)
     }
 }
