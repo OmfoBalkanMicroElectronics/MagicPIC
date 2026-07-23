@@ -1,6 +1,6 @@
 # HD44780 Uyumlu 0802A LCD Sürücü Kütüphanesi
 
-![LCD0802](images/lcd0802_working.gif)
+![LCD0802](images/lcd0802_working.gif.gif)
 
 
 Bu kütüphane, **MagicPIC** projesi kapsamında PIC16F886 mikrodenetleyicisi ile HD44780 (veya uyumlu) kontrolcüsüne sahip 8x2 karakterlik 0802A LCD ekranların yüksek kararlılıkla sürülmesi amacıyla geliştirilmiştir. Sürücü mimarisi, 20 MHz harici osilatör frekansı altında mikro saniye hassasiyetindeki sinyal sürekliliği ve port geçiş kararlılığı dikkate alınarak optimize edilmiştir.
