@@ -89,6 +89,8 @@ Battlecoder tarafından yapılan Zero External Parts PIC Programmer projesi.
 https://github.com/battlecoder/zeppp
 
 Ben kişisel olarak ZEPPP kullanıyorum.
+
+
 **Bilmeniz gerekenlwr(ZEPPP Hakkında),**
 ZEPPP, sadece LVP(Low-Voltage-Programming) destekleyen MCU'larla çalışır ve PIC16F886 bunu destekler,ama dikkat edilmesi gereken konu şudurki ZEPPP kullanmak için hedef mikrodenetleyicinizde Sigorta Bitleri aracılığıyla LVP açık olmalıdır.Bunu MPLAB X IDE'de '''#pragma config LVP = ON''' projenize Sigorta Biti ekleyebilirsiniz.(eğer önceden LVP Kapalıysa,maalesefki HVP yöntemi ile yapmanız gerkiyor,bunun için ise github repoları var ama ben kendim çalıştıramadım)
 
