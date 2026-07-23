@@ -101,7 +101,9 @@ Not:Fabrikadan çıkan PIC16F886'lar,varsayılan olarak LVP Açık gelir. Eğer 
 
 
 PIC16F886 geliştirme kartı(✅️)
-![PIC16F886 geliştirme kartı](images/MagicPICBF.jpg?raw=true =400x)
+<p align="center">
+  <img src="images/MagicPICBF.jpg" width="400">
+</p>
 
 
 
