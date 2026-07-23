@@ -23,6 +23,6 @@ void main(void) {
         Lcd_Write_String("MagicPIC"); // Alt satira sabit yazi
         
         // Ust satirda kayan yazi testi (Hiz: 300 ms)
-        Lcd_Scroll_Text(1, "        PIC16F886 Kütüphane Testi        ", 300);
+        Lcd_Scroll_Text(1, "        PIC16F886 Kutuphane Testi        ", 300);
     }
 }
