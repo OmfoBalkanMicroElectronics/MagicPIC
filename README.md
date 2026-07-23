@@ -62,6 +62,10 @@ MagicPIC aktif geliştirme aşamasındadır.
 Proje(ler),MPLAB X IDE ve XC8 Derleyicisi ile çalışıyor,ilerde başka IDE'ler içinde desteklenebilir.
 
 
+## MPLAB X IDE Nasıl kullanılır?
+Bu videoyu izlemenizi tercih ederim.
+https://www.youtube.com/watch?v=D9IeoqJJIeE
+
 ## Yol Haritası
 
 
