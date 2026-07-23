@@ -2,6 +2,8 @@
 
 Bu kütüphane, **MagicPIC** projesi kapsamında PIC16F886 mikrodenetleyicisi ile seri arayüz üzerinden haberleşen TM1638 entegreli LED & KEY modüllerinin kararlı bir şekilde kontrol edilmesi amacıyla geliştirilmiştir. Sürücü mimarisi; 8 adet ortak katot 7-segment göstergeyi, 8 adet bağımsız kırmızı LED'i ve 8 adet dahili butonu asgari pin kaynağı kullanarak (3-wire seri haberleşme) yönetmek üzere optimize edilmiştir.
 
+![tm1638](images/tm1638_working.gif)
+
 ## Öne Çıkan Özellikler
 
 * **Dinamik Veri Yönü Yönetimi:** Tek bir veri hattı (`TM_DIO`) üzerinden hem veri gönderme (yazma) hem de veri alma (buton okuma) işlemleri, mikrodenetleyicinin TRIS register düzeyinde çalışma zamanlı (runtime) olarak kontrol edilir.
