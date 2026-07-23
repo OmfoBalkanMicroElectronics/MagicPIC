@@ -2,6 +2,8 @@
 
 Bu çalışma, MagicPIC projesi kapsamında PIC16F886 mikrodenetleyicisinin 20 MHz harici osilatör frekansı altında iki farklı harici çevre birimiyle (HD44780 uyumlu 0802A LCD ve TM1638 LED & KEY sürücüsü) es zamanlı ve senkronize çalışmasını sağlamak amacıyla geliştirilmiştir. Sistem sigorta ayarlarında Low-Voltage Programming (LVP) modu aktif bırakılarak RB3/PGM pini programlama donanımı için izole edilmiş, dijital I/O çakışmaları engellenmiştir.
 
+![kapikiliti](images/kapikilit.gif)
+
 ## Sistem Mimarisi ve Fonksiyonel Senaryo
 
 * **Çift Ekran Kontrolü ve Veri Hizalama:** Kullanıcı arayüzünün ilk katmanında 0802A LCD üst satırı durum mesajlarına ayrılmıştır. Alt satırda ise girilen şifre karakterleri maskelenerek (********) listelenir. Boyutsal sınırlamalar nedeniyle oluşabilecek veri taşmaları (clipping) yazılımsal satır yönetimi ile engellenmiştir. TM1638 entegresi ise basılan nümerik değerleri anlık olarak kendi 7-segment ekran grubu üzerinde görüntüler.
