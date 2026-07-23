@@ -100,7 +100,10 @@ Not:Fabrikadan çıkan PIC16F886'lar,varsayılan olarak LVP Açık gelir. Eğer 
 
 
 
-PIC16F886 geliştirme kartı
+PIC16F886 geliştirme kartı(✅️)
+<p align="center">
+  <img src="images/MagicPICBF.jpg" width="900">
+</p>
 
 
 GPIO sürücüleri
