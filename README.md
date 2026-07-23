@@ -104,6 +104,9 @@ PIC16F886 geliştirme kartı(✅️)
 <p align="center">
   <img src="images/MagicPICBF.jpg" width="220">
 </p>
+<p align="center">
+  <img src="images/MagicPICBB.jpg" width="220">
+</p>
 
 
 
