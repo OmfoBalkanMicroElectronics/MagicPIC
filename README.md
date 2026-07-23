@@ -66,6 +66,11 @@ Proje(ler),MPLAB X IDE ve XC8 Derleyicisi ile çalışıyor,ilerde başka IDE'le
 Bu videoyu izlemenizi tercih ederim.
 https://www.youtube.com/watch?v=D9IeoqJJIeE
 
+## PIC16F886'nın Minimal Çalışması İçin Gereken Parçalar Nedir?
+
+![PICSCH](images/PICSCH.png)
+
+
 ## Yol Haritası
 
 
