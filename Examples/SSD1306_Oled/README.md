@@ -1,6 +1,7 @@
 # SSD1306 I2C OLED Sürücü ve Grafik Kütüphanesi
 
 Bu kütüphane, **MagicPIC** projesi kapsamında PIC16F886 mikrodenetleyicisi ile I2C protokolü üzerinden haberleşen 0.96" SSD1306 kontrolcülü 128x64 piksel grafik OLED ekranların yüksek kararlılıkla sürülmesi amacıyla geliştirilmiştir. Sürücü mimarisi, donanımsal I2C (MSSP) modülünü Fast Mode (400 kHz) frekansında çalıştırarak metin, dinamik veri ve pürüzsüz geometrik grafikleri asgari hafıza tüketimi ile ekrana aktarır.
+![OLED](images/oled_working.gif)
 
 ## Öne Çıkan Teknik Özellikler
 
