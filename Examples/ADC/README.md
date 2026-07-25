@@ -1,5 +1,5 @@
 # PIC16F886 Dahili ADC Sürücü Kütüphanesi ve Voltaj Göstergesi
-
+**Bu kodu şuan kullanmayınız,çünkü daha stabil bir gpio tabanı yapıyorum,ve yeni kütüphanelerde geliştiriryorum,yani yeniliyorum gibi**
 Bu çalışma, **MagicPIC** projesi kapsamında PIC16F886 mikrodenetleyicisinin dahili 10-bit Analog-Dijital Dönüştürücü (ADC) modülünü kontrol etmek ve okunan verileri SSD1306 OLED ekran üzerinde gerçek zamanlı (real-time) görselleştirmek amacıyla geliştirilmiştir. Uygulama, yüksek bellek tüketen `float` veri tiplerini ve `sprintf` fonksiyonlarını tamamen devre dışı bırakarak, saf matematiksel oranlama yöntemleriyle asgari RAM/Flash harcaması yapacak şekilde optimize edilmiştir.
 
 ## Öne Çıkan Teknik Özellikler
