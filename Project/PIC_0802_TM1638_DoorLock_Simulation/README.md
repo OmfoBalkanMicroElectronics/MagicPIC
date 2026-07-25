@@ -1,5 +1,5 @@
 # PIC16F886 TM1638 ve HD44780 LCD Entegrasyon Uygulaması
-
+## BU PROJE ŞUANLIK DEVRE DIŞIDIR,KÜTÜPHANELERDEKI KRITIK BUGLAR DÜZELTİLDİKTEN SONRA TÜM KODLAR KULLANILABİLECEKTİR.
 Bu çalışma, MagicPIC projesi kapsamında PIC16F886 mikrodenetleyicisinin 20 MHz harici osilatör frekansı altında iki farklı harici çevre birimiyle (HD44780 uyumlu 0802A LCD ve TM1638 LED & KEY sürücüsü) es zamanlı ve senkronize çalışmasını sağlamak amacıyla geliştirilmiştir. Sistem sigorta ayarlarında Low-Voltage Programming (LVP) modu aktif bırakılarak RB3/PGM pini programlama donanımı için izole edilmiş, dijital I/O çakışmaları engellenmiştir.
 
 ![kapikiliti](images/kapikilit.gif)
