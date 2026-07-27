@@ -15,11 +15,17 @@ Her sürücü **tek bir klasörde**, tüm arayüz varyantlarıyla birlikte durur
 
 Yeni bir sürücü eklerken bu yapıyı izleyin:
 drivers/<cihaz>/
-├── <cihaz>.h            Public API — uygulamanın gördüğü tek arayüz
-├── <cihaz>.c            Protokol/komut katmanı
-├── <cihaz>_pins.h       Pin makroları (kullanıcı özelleştirebilir)
-├── <cihaz>_if.h         [opsiyonel] Birden fazla bağlantı yolu varsa sözleşme
-├── <cihaz>_if_xxx.c     [opsiyonel] Her bağlantı yolu için bir backend
+
+├── 
+<cihaz>.h            Public API — uygulamanın gördüğü tek arayüz
+├── 
+<cihaz>.c            Protokol/komut katmanı
+├──
+<cihaz>_pins.h       Pin makroları (kullanıcı özelleştirebilir)
+├──
+<cihaz>_if.h         [opsiyonel] Birden fazla bağlantı yolu varsa sözleşme
+├── 
+<cihaz>_if_xxx.c     [opsiyonel] Her bağlantı yolu için bir backend
 └── README.md            Bağlantı tablosu, API, maliyet, zamanlama
 
 ## Zorunlu kurallar
