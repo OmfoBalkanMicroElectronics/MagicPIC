@@ -73,13 +73,9 @@ Aşağıdaki modüllerin tamamı **gerçek donanımda test edilmiş** ve doğrul
 
 ## Repo Yapısı
 
-​
 MagicPIC/
-
-├── 
-images/                      README görselleri
-├── 
-hardware/                    Prototip kart notları ve şema fotoğrafları
+├── images/                      README görselleri
+├── hardware/                    Prototip kart notları ve şema fotoğrafları
 │   ├── README.md
 │   └── schematics/
 ├── docs/
@@ -107,6 +103,7 @@ hardware/                    Prototip kart notları ve şema fotoğrafları
 └── projects/                 Her uygulama bağımsız MPLAB X projesi
 ├── 01_lcd_demo.X/
 └── 02_door_lock.X/      (planlanan)
+
 
 **Temel kural:** `lib/` içindeki kod **asla** proje klasörüne kopyalanmaz; projelere **link**
 olarak eklenir. Böylece bir sürücü düzeltmesi tüm projelere aynı anda yayılır.
