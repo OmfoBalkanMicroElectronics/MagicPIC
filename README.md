@@ -75,8 +75,11 @@ Aşağıdaki modüllerin tamamı **gerçek donanımda test edilmiş** ve doğrul
 
 ​
 MagicPIC/
-├── images/                      README görselleri
-├── hardware/                    Prototip kart notları ve şema fotoğrafları
+
+├── 
+images/                      README görselleri
+├── 
+hardware/                    Prototip kart notları ve şema fotoğrafları
 │   ├── README.md
 │   └── schematics/
 ├── docs/
