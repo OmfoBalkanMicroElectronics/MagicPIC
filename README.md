@@ -74,9 +74,11 @@ Aşağıdaki modüllerin tamamı **gerçek donanımda test edilmiş** ve doğrul
 ## Repo Yapısı
 
 MagicPIC/
-├── images/                      README görselleri
-├── hardware/                    Prototip kart notları ve şema fotoğrafları
-│   ├── README.md
+
+---images/  README görselleri
+
+---hardware/                    Prototip kart notları ve şema fotoğrafları
+---  --- README.md
 │   └── schematics/
 ├── docs/
 │   ├── programming.md           LVP / HVP detaylı prosedürler
