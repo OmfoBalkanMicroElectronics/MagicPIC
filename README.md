@@ -1,3 +1,5 @@
+Proje şuanlık arşiv haldedir. Şuan MagicJL Üzerine odaklıyım.
+
 <h1 align="center">MagicPIC</h1>
 
 <p align="center">
